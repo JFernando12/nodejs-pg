@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/app.js",
+    "db": "nodemon postgres/index.js",
+    "cache": "nodemon cache/index.js"
+  },
+  "keywords": [],
+  "author": "Fernando Castrejón <fernandocastrejonh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "redis": "^4.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
